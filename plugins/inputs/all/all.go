@@ -82,7 +82,8 @@ import (
 	_ "github.com/influxdata/telegraf/plugins/inputs/kernel_vmstat"
 	_ "github.com/influxdata/telegraf/plugins/inputs/kibana"
 	_ "github.com/influxdata/telegraf/plugins/inputs/kinesis_consumer"
-	_ "github.com/influxdata/telegraf/plugins/inputs/kube_inventory"
+
+	// _ "github.com/influxdata/telegraf/plugins/inputs/kube_inventory"
 	_ "github.com/influxdata/telegraf/plugins/inputs/kubernetes"
 	_ "github.com/influxdata/telegraf/plugins/inputs/lanz"
 	_ "github.com/influxdata/telegraf/plugins/inputs/leofs"
@@ -137,7 +138,8 @@ import (
 	_ "github.com/influxdata/telegraf/plugins/inputs/powerdns_recursor"
 	_ "github.com/influxdata/telegraf/plugins/inputs/processes"
 	_ "github.com/influxdata/telegraf/plugins/inputs/procstat"
-	_ "github.com/influxdata/telegraf/plugins/inputs/prometheus"
+
+	// _ "github.com/influxdata/telegraf/plugins/inputs/prometheus"
 	_ "github.com/influxdata/telegraf/plugins/inputs/proxmox"
 	_ "github.com/influxdata/telegraf/plugins/inputs/puppetagent"
 	_ "github.com/influxdata/telegraf/plugins/inputs/rabbitmq"

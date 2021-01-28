@@ -17,8 +17,6 @@ import (
 
 	"github.com/influxdata/telegraf/agent"
 	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/goplugin"
 	"github.com/influxdata/telegraf/logger"
 	_ "github.com/influxdata/telegraf/plugins/aggregators/all"
 	"github.com/influxdata/telegraf/plugins/inputs"
@@ -26,6 +24,9 @@ import (
 	"github.com/influxdata/telegraf/plugins/outputs"
 	_ "github.com/influxdata/telegraf/plugins/outputs/all"
 	_ "github.com/influxdata/telegraf/plugins/processors/all"
+
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/internal/goplugin"
 )
 
 // If you update these, update usage.go and usage_windows.go
