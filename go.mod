@@ -40,7 +40,7 @@ require (
 	github.com/couchbase/goutils v0.0.0-20180530154633-e865a1461c8a // indirect
 	github.com/denisenkom/go-mssqldb v0.0.0-20190707035753-2be1aa521ff4
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
-	github.com/dimchansky/utfbom v1.1.0
+	github.com/dimchansky/utfbom v1.1.1
 	github.com/docker/distribution v2.6.0-rc.1.0.20170726174610-edc3ab29cdff+incompatible // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20200916142827-bd33bbf0497b+incompatible
 	github.com/docker/go-connections v0.3.0 // indirect
